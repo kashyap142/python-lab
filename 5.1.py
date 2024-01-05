@@ -7,7 +7,11 @@ if __name__ == "__main__":
     # update
     my_dict["email"] = "frodo@ringbearer.com"
 
-    val = my_dict.get("email")
+    val = my_dict.get("email", 0)
+    print(val)
+
+    val = my_dict.get("hgahgapgh", 0)
+
     print(val)
 
     val = my_dict["email"]

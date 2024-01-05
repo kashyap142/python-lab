@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Read data from the result file (replace 'result.csv' with your actual file path)
-result_data = pd.read_csv("results.csv")  # or pd.read_excel('result.xlsx')
+result_data = pd.read_csv("results.csv")
 
 # Display the top 10 rows of the dataset
 print("Top 10 rows of the dataset:")

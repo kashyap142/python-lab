@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Reading the database and displaying the top 10 rows
-tips_data = pd.read_csv("tips.csv")  # Replace with your actual file path
+tips_data = pd.read_csv("tips.csv")
 print("Top 10 rows of the dataset:")
 print(tips_data.head(10))
 

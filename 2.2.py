@@ -6,13 +6,14 @@ def solve():
 
     arr = [False] * size
 
-    for i in range(2, size, 1):
+    k = math.sqrt(size)
+    for i in range(2, int(k), 1):
         if arr[i] == False:
             j = i * i
             for k in range(j, size, i):
                 arr[k] = True
 
-    total = 0
+    total = 0 # 142913828922
 
     for i in range(2, size, 1):
         if arr[i] == False:

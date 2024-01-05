@@ -1,11 +1,4 @@
 if __name__ == "__main__":
-    # thisdict = {
-    #     "brand": "Ford",
-    #     "model": "Mustang",
-    #     "year": 1964
-    # }
-    # thisdict["color"] = "red"
-    # print(thisdict)
 
     my_dict = {
         "name" : "frodo baggins",
